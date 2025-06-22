@@ -34,7 +34,7 @@ def convertir_a_excel(df):
 
 # Interfaz principal
 st.set_page_config(page_title="Predicción Académica", layout="centered")
-st.title("🎓 Modelo de Riesgo Académico")
+st.title("🎓 Sistema de Alertas Tempranas")
 
 # Selector de modo
 opcion = st.radio("Selecciona un modo de uso:", ["📥 Predicción con archivo", "🧍 Predicción individual"])
